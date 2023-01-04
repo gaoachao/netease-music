@@ -1,0 +1,21 @@
+.c-the_top_bar-logo {
+  cursor: pointer;
+  @media (max-width: 800px) {
+    &.c-the_top_bar-logo.c-the_top_bar-logo {
+      display: none;
+    }
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+    // filter: invert(100%);
+  }
+  h2 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 500;
+    padding-left: 4px;
+    // color: var(--on-primary);
+  }
+}

@@ -1,0 +1,112 @@
+// $shadow_color: #e13e3e;
+// $red_bgcolor: #ec4141;
+// $topbar_height: 60px;
+
+// /*extend*/
+// .flex {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .title {
+//   font-size: 14px;
+//   font-weight: normal;
+//   margin: 0;
+//   color: #555;
+// }
+
+// .input {
+//   outline: none;
+//   border: 1px solid var(--bg-d);
+//   width: 180px;
+//   height: 25px;
+//   line-height: 25px;
+//   font-size: 11px;
+//   font-weight: 500;
+//   padding-left: 25px;
+// }
+
+// .btn {
+//   width: 209px;
+//   height: 30px;
+//   line-height: 30px;
+//   border: none;
+//   outline: none;
+//   cursor: pointer;
+// }
+
+// .transparent {
+//   opacity: 0 !important;
+// }
+
+// // .hidden {
+// //   display: none !important;
+// // }
+
+// /*others*/
+
+// .c-the_top_bar {
+//   @extend .flex;
+//   font: Arial, Helvetica, sans-serif;
+//   width: 100%;
+//   height: $topbar_height;
+//   background-color: var(--primary);
+//   justify-content: space-between;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   padding: 0 1rem;
+//   z-index: 10;
+
+//   &-placeholder {
+//     height: $topbar_height;
+//   }
+
+//   & > div {
+//     @extend .flex;
+//   }
+
+//   &-middle {
+//     &-search_bar {
+//       /*容易影响下边img的样式，最好改成类名*/
+//       & > img {
+//         position: absolute;
+//         top: 6px;
+//         left: 10px;
+//         filter: invert(100%);
+//       }
+
+//       & > img:hover {
+//         filter: invert(90%);
+//       }
+//     }
+//   }
+
+//   &-right {
+//     margin: 0 6% 0 0;
+
+//     &-user {
+//       display: flex;
+//       align-items: center;
+//       margin: 0 1rem;
+//       font-size: 12px;
+//       color: #fff;
+//       cursor: pointer;
+
+//       &-avatar {
+//         border-radius: 999px;
+//         width: 2rem;
+//         height: 2rem;
+//         background-color: var(--bg-d);
+//         margin-right: 0.4rem;
+
+//         &.placeholder {
+//           padding: 0.3rem;
+//           width: 1.4rem;
+//           height: 1.4rem;
+//         }
+//       }
+//     }
+//   }
+// }

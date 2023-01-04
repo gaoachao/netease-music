@@ -1,0 +1,34 @@
+.c-the_top_bar-middle-search_bar-dropdown-history {
+  &-header {
+    line-height: 30px;
+    position: relative;
+    padding: 10px;
+
+    h2 {
+      font-size: 14px;
+      font-weight: normal;
+      margin: 0;
+    }
+    &-icon {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      left: 70px;
+      top: 14px;
+      cursor: pointer;
+      filter: invert(0.3);
+    }
+    &-icon:hover {
+      filter: invert(0.1);
+    }
+  }
+}
+
+// .dark {
+//   .c-the_top_bar-middle-search_bar-dropdown-history-header-icon {
+//     filter: invert(0.7);
+//   }
+//   .c-the_top_bar-middle-search_bar-dropdown-history-header-icon:hover {
+//     filter: invert(1);
+//   }
+// }
