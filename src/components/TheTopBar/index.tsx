@@ -3,10 +3,11 @@ import "./index.scss";
 import { observer } from "mobx-react-lite";
 import { SelfStore } from "../../mobx/self";
 
-import Logo from "./components/Logo/Logo";
+import Img from "../Img";
+import Logo from "./components/Logo";
 import SearchBar from "./components/SearchBar";
-import PageChanger from "./components/PageChanger/PageChanger";
-import ThemeBtn from "./components/ThemeBtn/ThemeBtn";
+import PageChanger from "./components/PageChanger";
+import ThemeBtn from "./components/ThemeBtn";
 
 import { useShowDialogLogin } from "./hooks/useShowDialogLogin";
 
@@ -32,7 +33,7 @@ function _THeTopBar() {
             }
           }}
         >
-          <img
+          <Img
             className={
               self
                 ? "c-the_top_bar-right-user-avatar"
@@ -46,6 +47,7 @@ function _THeTopBar() {
         <ThemeBtn/>
       </div>
     </div>
+    
   );
 }
 const TheTopBar = observer(_THeTopBar);
