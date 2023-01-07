@@ -16,9 +16,8 @@ import avatarPlaceholder from "./images/user.svg";
 function _THeTopBar() {
   const { showDialogLogin, setShowDialogLogin } = useShowDialogLogin();
   const self = SelfStore.self;
-  console.log(SelfStore);
   return (
-    <div className="c-the_top-bar">
+    <div className="c-the_top_bar">
       <Logo />
       <div className="c-the_top_bar-middle">
         <PageChanger />

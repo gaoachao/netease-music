@@ -1,0 +1,32 @@
+body {
+  --primary: #ec4141;
+  --secondary: #0c73c2;
+
+  --on-bg: #373737;
+  --on-bg-d: #000000;
+
+  --bg: #fff;
+  --bg-2: #f6f6f7;
+  --bg-d: #e1e1e1;
+  --bg-dim: #f6f6f7;
+
+  --on-primary: #fff;
+
+  --dark: -1;
+
+  // 用于thetopbar下拉框的垃圾桶图标，filter: invert() 不支持calc()，故出此下策
+  --icon-dark: 0.1;
+}
+
+.dark {
+  --on-bg: #d0d0d0;
+  --on-bg-d: #fffff1;
+
+  --bg: #2b2b2b;
+  --bg-2: #333333;
+  --bg-d: #212124;
+
+  --dark: 1;
+
+  --icon-dark: 0.9;
+}

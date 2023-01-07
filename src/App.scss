@@ -1,0 +1,23 @@
+/** 处理icon图标*/
+.icon {
+  width: 1em;
+  height: 1em;
+}
+
+.main {
+  min-height: 100vh;
+  background-color: var(--bg);
+
+  &-body {
+    margin: auto;
+    // max-width: $page-max-width;
+
+    &-content {
+      display: flex;
+    }
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1);
+}
